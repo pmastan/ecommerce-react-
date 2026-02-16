@@ -12,7 +12,7 @@ import product2 from "../assets/tv2.jpeg";
     "price": 109.95,
     "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
     "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png",
+    image: product1,
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -48,7 +48,7 @@ import product2 from "../assets/tv2.jpeg";
     "price": 15.99,
     "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
     "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_t.png",
+        image: product2,
     "rating": {
       "rate": 2.1,
       "count": 430

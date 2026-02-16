@@ -1,5 +1,5 @@
-import product1 from "../Images/tv1.jpg";
-import product2 from "../Images/tv2.jpeg";
+import product1 from "../assets/tv1.jpg";
+import product2 from "../assets/tv2.jpeg";
 
 export const initialProducts = [
   {
@@ -8,7 +8,7 @@ export const initialProducts = [
     price: 100,
     description: "Sample description",
     category: "electronics",
-    image: product1,   // ✅ USE IMPORTED VARIABLE
+    image: product1,   
     rating: { rate: 4.5, count: 120 }
   },
   {
@@ -17,7 +17,7 @@ export const initialProducts = [
     price: 120,
     description: "Sample description",
     category: "electronics",
-    image: product1,   // ✅ USE IMPORTED VARIABLE
+    image: product1,   
     rating: { rate: 4.5, count: 120 }
   },
   {
@@ -26,7 +26,7 @@ export const initialProducts = [
     price: 150,
     description: "Sample description",
     category: "electronics",
-    image: product1,   // ✅ USE IMPORTED VARIABLE
+    image: product1,   
     rating: { rate: 4.5, count: 120 }
   },
   {
@@ -35,7 +35,7 @@ export const initialProducts = [
     price: 200,
     description: "Sample description",
     category: "electronics",
-    image: product2,   // ✅ USE IMPORTED VARIABLE
+    image: product2,   
     rating: { rate: 4.5, count: 120 }
   }
 ];

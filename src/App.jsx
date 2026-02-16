@@ -12,6 +12,8 @@ import Profile from "./pages/Profile";
 
 import Vendor from "./pages/Vendor";
 import Cart from "./components/Cart";
+import Orders from "./components/Orders";
+
 
 function App() {
   return (
@@ -25,11 +27,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/vendor" element={<Vendor />} />
           <Route path="/cart" element={<Cart />} />
-                    <Route path="/Login" element={<Login />} />
-                    <Route path="/auth" element={<Auth />} />
-                     <Route path="/Profile" element={<Profile />} />
-
-
+          <Route path="/Login" element={<Login />} />
+          <Route path="/auth" element={<Auth />} />
+          <Route path="/Profile" element={<Profile />} />
+          <Route path="/Orders" element={<Orders />} />
 
         </Routes>
 

@@ -36,7 +36,7 @@ const Navbar = () => {
         </li>
 
         <li className={isActive("/orders")}>
-          <Link to="/orders">Orders</Link>
+          <Link to="/Orders">Orders</Link>
         </li>
 
         <li>
